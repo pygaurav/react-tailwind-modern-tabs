@@ -35,7 +35,7 @@ or
 `yarn dev`
 
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the project.
+5. Open your browser and visit [http://localhost:5173](http://localhost:5173) to view the project.
 
 ## Usage
 
