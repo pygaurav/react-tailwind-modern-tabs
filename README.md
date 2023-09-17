@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# React TypeScript Tailwind CSS Tabs Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project with TypeScript and Tailwind CSS for styling. It features tabs with three categories: Movies, Apps, and Books. Each tab displays a grid of elements with three tiles per row, featuring smooth transitions between them.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+`git clone git@github.com:pygaurav/react-tailwind-modern-tabs.git`
 
-- Configure the top-level `parserOptions` property like this:
+2. Navigate to the project directory:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+`cd react-tailwind-modern-tabs`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Install the dependencies using npm or yarn:
+
+`npm install`
+
+or
+
+`yarn install`
+
+4. Start the development server:
+
+`npm run dev`
+
+or
+
+`yarn dev`
+
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the project.
+
+## Usage
+
+- Click on the tabs (Movies, Apps, Books) to navigate between categories.
+- Each category displays a grid with three tiles per row.
+- Enjoy the smooth transitions and animations for a polished user interface.
+
+## Technologies
+
+- React
+- TypeScript
+- Tailwind CSS
+
+## Features
+
+- Three tabs: Movies, Apps, and Books.
+- Grid layout with three tiles per row for each category.
+- Smooth transitions and animations for a polished user interface.
+- Responsive design for various screen sizes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
